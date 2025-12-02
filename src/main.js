@@ -1,4 +1,4 @@
-import { getImagesByQuery } from "./js/pixabay-api";
+import { getImagesByQuery} from "./js/pixabay-api";
 import { createGallery, clearGallery, showLoader, hideLoader, showLoadMoreButton, hideLoadMoreButton} from "./js/render-functions";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
@@ -95,3 +95,4 @@ function scrollPage() {
         });
     }
 }
+
