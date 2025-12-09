@@ -3,7 +3,7 @@ import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-const lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+const lightbox = new SimpleLightbox('.gallery a', { /* options */ );
 const gallery = document.querySelector(".gallery");
 const loader = document.querySelector(".loader");
 const loadMoreBtn = document.querySelector(".load-more")
@@ -56,4 +56,4 @@ function showLoadMoreButton(){
 function hideLoadMoreButton(){
   loadMoreBtn.classList.add("hidden");
 }
-export { createGallery, clearGallery, showLoader, hideLoader, showLoadMoreButton, hideLoadMoreButton,loadMoreBtn,gallery };
+export { createGallery, clearGallery, showLoader, hideLoader, showLoadMoreButton, hideLoadMoreButton,loadMoreBtn,gallery};
